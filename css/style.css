@@ -100,6 +100,10 @@ section {
   overflow:hidden;
 }
 
+section:last-child {
+  margin-bottom: 100px;
+}
+
 .margin-10 {
   margin-left:10px;
   margin-right: 10px;
@@ -138,13 +142,22 @@ section img {
   }
 }
 
+.dark-container {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  background-color: #1C2A34;  
+  color: white;
+}
+
+.dark-container h2 {
+  margin-top: 10px;
+}
 
 .bottom-button {
   width: 100%;
   float: none;
-  line-height: 40px;
   text-align: center;
-  background-color: #1C2A34;
 }
 
 .bottom-button p {
@@ -163,4 +176,35 @@ section img {
   margin: 0 0 -1px;
   position: absolute;
   width: 88px;
+}
+.alternatives {
+  list-style: none;
+  overflow: hidden;
+  -webkit-padding-start: 5px;
+  -moz-padding-start: 5px;
+}
+.alternatives li {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.alternatives li:first-child {
+  margin-top: 10px;
+}
+
+.border-row {
+  border-bottom: 1px solid #9A9C9B;
+}
+.exam-title {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+.exam-title h1 {
+  font-size: 16px;
+  color: blue;
+  text-decoration: underline; !important
+  float:left;
+  display: inline-block;
+  margin-bottom: 0;
 }
