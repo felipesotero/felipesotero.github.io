@@ -26,7 +26,7 @@ body {
 .img-container .centerer {
   /* display: inline-block; */
   /* vertical-align: middle; */
-  height: 70%;
+  height: 80%;
   /* top: 120%; */
 }
 
@@ -35,6 +35,7 @@ body {
   display: inline-block;
   /* width: 75%; */
   height: 10%;
+  min-height: 42px;
   max-height: 100%; /* <-- Set maximum height to 100% of its parent */
   /*max-width: 100%; */ /* <-- Set maximum width to 100% of its parent */
     
